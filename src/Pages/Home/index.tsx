@@ -15,7 +15,6 @@ const Home = () => {
     { name: 'Black', color: '#000000' },
   ];
 
-  console.log(color, 'asw');
 
   return (
     <div

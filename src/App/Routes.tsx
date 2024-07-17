@@ -4,7 +4,7 @@ import {
   Routes,
   Outlet,
 } from 'react-router-dom';
-import Home from '../Pages/Home/Index';
+import Home from '@/Pages/Home';
 
 const RouterOutlet = () => {
   return (
