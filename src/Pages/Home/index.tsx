@@ -15,7 +15,6 @@ const Home = () => {
     { name: 'Black', color: '#000000' },
   ];
 
-
   return (
     <div
       className={`flex h-[100vh] w-full items-start justify-center  p-16 `}

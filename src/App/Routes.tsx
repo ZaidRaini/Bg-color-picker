@@ -4,7 +4,7 @@ import {
   Routes,
   Outlet,
 } from 'react-router-dom';
-import Home from '@/Pages/Home';
+import Home from '@/Pages/Home/index';
 
 const RouterOutlet = () => {
   return (
@@ -12,7 +12,6 @@ const RouterOutlet = () => {
       <Routes>
         <Route path="/" element={<Outlet />}>
           <Route path="/" element={<Home />} />
-          
         </Route>
       </Routes>
     </Router>
